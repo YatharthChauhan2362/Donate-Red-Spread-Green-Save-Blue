@@ -1,0 +1,90 @@
+.donation .names{
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.donation .comment{
+  margin:0;
+  padding:0;
+  font-size: 11px;
+}
+
+.donation-status-pending{
+  opacity:0.8;
+}
+
+.donor-badge-mini{
+  font-size: 10px;
+}
+
+.token-tree {
+  font-size: 0.85em;
+  margin-left: 19px;
+}
+
+
+
+
+
+.status-widget-holder{
+  font-size: 10px;
+}
+.status-widget-holder .separator{display:none;}
+.status-widget-holder .selectable{
+  display:inline-block;
+}
+.status-widget{
+  display:inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  background: no-repeat;
+}
+.status-completed{
+  background-image:url(images/system-tick-alt-02.png);
+}
+.status-active,
+.status-open{
+  background-image:url(images/system-redo.png);
+}
+.status-pending,
+.status-waiting{
+  background-image:url(images/system-question-alt-02.png);
+}
+.status-canceled{
+  background-image:url(images/system-stop.png);
+}
+.status-widget .text{
+  display: none;
+}
+
+
+
+
+
+
+/*
+Views handler field boolean
+*/
+.icon-yes-no{
+  border: 1px solid #bbb;
+  background-color: #eee;
+  color: #aaa;
+  display: inline-block;
+  padding: 1px 3px;
+  margin: 2px 0;
+  font-weight: bolder;
+}
+.icon-yes{
+  background-color: #DFD;
+  border-color: #6D6;
+  color: #3D3;
+}
+.icon-no{
+  background-color: #FDD;
+  border-color: #D66;
+  color: #D33;
+}
+td.views-field-want-receipt {
+  text-align: center;
+}

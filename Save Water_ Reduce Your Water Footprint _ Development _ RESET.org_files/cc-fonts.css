@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'cc-icons';
+  src: url('font/cc-icons.eot?60775040');
+  src: url('font/cc-icons.eot?60775040#iefix') format('embedded-opentype'),
+       url('font/cc-icons.woff?60775040') format('woff'),
+       url('font/cc-icons.ttf?60775040') format('truetype'),
+       url('font/cc-icons.svg?60775040#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cc-link {
+  font-family: "cc-icons";
+  font-weight: normal;
+  font-style: normal;
+  speak:none;
+  letter-spacing: 0.1em;
+}

@@ -1,0 +1,82 @@
+/* line 4, ../sass/tabs.scss */
+.tabs.primary {
+  padding: 0;
+  font-size: .875rem;
+  line-height: 1.333em;
+  margin: 2em auto 1em auto;
+  list-style: none outside none;
+  padding: 0;
+  font-family: "Bitter", Georgia, serif;
+  letter-spacing: 0.05em;
+  position: relative;
+  z-index: 3;
+}
+/* line 41, ../sass/_base.scss */
+.tabs.primary:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 14, ../sass/tabs.scss */
+.tabs.primary li {
+  display: block;
+  margin: .5em 0;
+}
+/* line 18, ../sass/tabs.scss */
+.tabs.primary li.active a {
+  background: #483A19;
+  color: #fff;
+}
+/* line 25, ../sass/tabs.scss */
+.tabs.primary a {
+  font-weight: 400;
+  padding: 0 1em;
+  background: #cfcbc0;
+  line-height: 1.75em;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+/* line 33, ../sass/tabs.scss */
+.tabs.primary a:hover {
+  background: #c4bfb2;
+}
+@media only screen and (min-width: 768px) {
+  /* line 4, ../sass/tabs.scss */
+  .tabs.primary {
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #483A19;
+  }
+  /* line 41, ../sass/tabs.scss */
+  .tabs.primary li {
+    margin: 0 .5em 0 0;
+    float: left;
+  }
+  /* line 45, ../sass/tabs.scss */
+  .tabs.primary a {
+    width: auto;
+  }
+}
+
+/* line 51, ../sass/tabs.scss */
+.tabs.secondary {
+  list-style: none outside none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+/* line 54, ../sass/tabs.scss */
+.tabs.secondary li {
+  margin: 0 .5em 0 0;
+  padding-right: .5em;
+  border-right: 1px solid #483A19;
+  display: inline-block;
+}
+/* line 59, ../sass/tabs.scss */
+.tabs.secondary li:last-child {
+  border-right: 0 none;
+}
+/* line 63, ../sass/tabs.scss */
+.tabs.secondary a {
+  font-weight: 700;
+}
